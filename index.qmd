@@ -1,5 +1,21 @@
 ---
 title: "Live Music Transcriber"
 ---
+## Project Abstract
+This project aims to take in sound inputs, whether using a keyboard, any instruments, or someone signing, transcribe the sound onto a score in real-time with a given bpm, and play back the input melody. An FPGA will be used as the main calculation and display engine, using Fast Fourier Transform (FFT) to handle frequency analysis and driving a VGA display. A MCU will be used for interfacing the audio inputs and outputs.
 
+On the hardware level, an analog microphone will take in sounds, where the MCU will convert them into digital signals using ADC and send the converted signals to the FPGA. The MCU will then send the digital signals to the FPGA using SPI. Then, the FPGA will use FFT to extract the frequency and duration of the note inputted. The array of notes will then be used by the FPGA to calculate the pixels for displaying the score on a VGA display. This array of notes, after transcription ends, will be sent to the MCU through SPI to generate the playback audio. The user should be able to control the music transcription and play back audio with a hardware components such as a switch or a button, and control the volume with a potentiometer.
 
+## Project Motivation
+Both of us are interested in digital design and audio processing, so we wanted to leverage the FPGA's fast computational capabilites to process sound for our project. Due to the importance and wide applications of the FFT, we wanted to design and integrate FFT in hardware. We chose VGA to display our output because we wanted to accurately depict a music score, which required a higher pixel resolution
+
+## System Block Diagram
+![](images/system.png)
+
+The system block diagram shows the flow of our design, starting with an input from a microphone which is sampled by the MCU's internal ADC. The MCU's ADC output is sent over to the FPGA using SPI. The music score and notes and output to the VGA monitor
+
+## Acknowledgements
+
+We would like to thank Prof Spencer for all advice in debugging our system and challenging us to build this complex project. We would also like to thank Xavier for giving us VGA monitors to use as well as the grutors Kavi, Troy, and Vikram for all their helpful debugging tips. 
+
+Lastly we would like to give a shoutout to our friends in Microps who accompanied us during late nights that transitioned into early mornings in the lab and offered support and help throughout the process!
