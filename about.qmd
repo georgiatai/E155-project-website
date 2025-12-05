@@ -3,34 +3,35 @@ title: "About the Team"
 format:
   html:
     toc: false
+    anchor-sections: false  # This globally disables anchors, just in case
 fontawesome: true
 ---
 
 :::: {.team-container}
 
 ::: {.team-member}
-## Julia Gong
+<div class="member-name">Julia Gong</div>
 
 ![](images/julia_headshot.jpg){.profile-img}
 
 ::: {.social-links}
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/julia-gong-b8222830a) |
-[{{< fa brands github >}} GitHub](https://github.com/juliacygong) |
-[{{< fa globe >}} Website](https://juliacygong.github.io/E155/)
+[LinkedIn](https://www.linkedin.com/in/julia-gong-b8222830a) |
+[GitHub](https://github.com/juliacygong) |
+[Website](https://juliacygong.github.io/E155/)
 :::
 
 Julia Gong is a junior engineering major at Harvey Mudd College. She is interested in digital design and the integration of hardware systems. Outside of engineering, she enjoys creative, hands-on work, including pottery, bead embroidery, painting, and knitting.
 :::
 
 ::: {.team-member}
-## Georgia Tai
+<div class="member-name">Georgia Tai</div>
 
 ![](images/georgia_headshot.jpg){.profile-img}
 
 ::: {.social-links}
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/georgia-tai/) |
-[{{< fa brands github >}} GitHub](https://github.com/georgiatai) |
-[{{< fa globe >}} Website](https://georgiatai.github.io/E155-portfolio/)
+[LinkedIn](https://www.linkedin.com/in/georgia-tai/) |
+[GitHub](https://github.com/georgiatai) |
+[Website](https://georgiatai.github.io/E155-portfolio/)
 :::
 
 Georgia Tai is a junior engineering student at Harvey Mudd College (HMC) with an interest in computer and electrical engineering. Born and raised in Hsinchu, Taiwan, she developed a passion for electrical engineering. Outside of engineering, she enjoys music, drawing, and reading mangas.
@@ -40,7 +41,6 @@ Georgia Tai is a junior engineering student at Harvey Mudd College (HMC) with an
 
 ```{=html}
 <style>
-/* 1. Center the Main Page Title */
 h1.title {
   text-align: center;
 }
@@ -49,58 +49,54 @@ h1.title {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
+  justify-content: center;
   margin-top: 2rem;
-  justify-content: center; /* Centers the columns on the screen */
 }
 
 .team-member {
-  /* --- KEY FIX STARTS HERE --- */
-  /* Turn the card into a vertical stack */
-  display: flex;
-  flex-direction: column;
-  /* Force all children (Image, Title, Text) to align to the center cross-axis */
-  align-items: center;
-  /* Center the text content itself */
-  text-align: center;
-  /* --- KEY FIX ENDS HERE --- */
-
   flex: 1;
   min-width: 300px;
   max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* We don't strictly need margin:auto anymore, but it's good safety */
-.profile-img {
+.member-name {
+  font-size: 1.75rem;
+  font-weight: 600;   /* Bold */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+  color: #333;
+}
+
+.team-member img.profile-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 1rem 0; /* Changed to just vertical margin */
+  margin: 1rem auto;
+  display: block;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .social-links {
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-  width: 100%; /* Ensure links span full width so they center properly */
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .social-links a {
   text-decoration: none;
   color: #2563eb;
-  transition: color 0.2s;
-  margin: 0 5px; /* Add small spacing between links */
+  margin: 0 5px;
 }
 
 .social-links a:hover {
-  color: #1e40af;
   text-decoration: underline;
-}
-
-/* Force the headers to center, overriding any theme defaults */
-.team-member h2 {
-  margin-top: 1.5rem;
-  text-align: center !important;
-  width: 100%;
 }
 </style>
