@@ -1,7 +1,7 @@
 
 ---
 title: "About the Team"
-format: 
+format:
   html:
     toc: false
 fontawesome: true
@@ -12,29 +12,29 @@ fontawesome: true
 ::: {.team-member}
 ## Julia Gong
 
-![](images/headshot.jpg){.profile-img}
+![](images/julia_headshot.jpg){.profile-img}
 
 ::: {.social-links}
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/julia-gong-b8222830a) | 
-[{{< fa brands github >}} GitHub](https://github.com/juliacygong) | 
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/julia-gong-b8222830a) |
+[{{< fa brands github >}} GitHub](https://github.com/juliacygong) |
 [{{< fa globe >}} Website](https://juliacygong.github.io/E155/)
 :::
 
-Julia Gong is a junior engineering major at Harvey Mudd College. She is interested in digital design and the integration of hardware systems. Outside of engineering, she enjoys creative, hands-on work, including pottery, bead embroidery, painting, and knitting. 
+Julia Gong is a junior engineering major at Harvey Mudd College. She is interested in digital design and the integration of hardware systems. Outside of engineering, she enjoys creative, hands-on work, including pottery, bead embroidery, painting, and knitting.
 :::
 
 ::: {.team-member}
 ## Georgia Tai
 
-![](images/partner-headshot.jpg){.profile-img}
+![](images/georgia_headshot.jpg){.profile-img}
 
 ::: {.social-links}
-[{{< fa brands linkedin >}} LinkedIn](https://linkedin.com/in/partner) | 
-[{{< fa brands github >}} GitHub](https://github.com/partner) | 
-[{{< fa globe >}} Website](https://partner-website.com)
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/georgia-tai/) |
+[{{< fa brands github >}} GitHub](https://github.com/georgiatai) |
+[{{< fa globe >}} Website](https://georgiatai.github.io/E155-portfolio/)
 :::
 
-[Partner bio goes here. Replace this text with their background, interests, and what they bring to the project. You can follow a similar structure to Julia's bio above.]
+Georgia Tai is a junior engineering student at Harvey Mudd College (HMC) with an interest in computer and electrical engineering. Born and raised in Hsinchu, Taiwan, she developed a passion for electrical engineering. Outside of engineering, she enjoys music, drawing, and reading mangas.
 :::
 
 ::::
@@ -87,5 +87,3 @@ Julia Gong is a junior engineering major at Harvey Mudd College. She is interest
   margin-top: 1.5rem;
 }
 </style>
-
-

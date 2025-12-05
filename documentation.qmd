@@ -1,7 +1,6 @@
 ---
 title: "Documentation"
 ---
-All the code for this project can be found in the following [Github Repository.](https://github.com/georgiatai/E155-final-project)
 
 ## Schematics
 The schematics of the physical system is shown below:
@@ -23,7 +22,7 @@ The source code for the project are all included in this [Github repository](htt
 * E155 Breakout Board [[Schematics](https://hmc-e155.github.io/assets/doc/E155%20Development%20Board%20Schematic.pdf), [Adapter Schematics](https://hmc-e155.github.io/assets/doc/E155%20Breadboard%20Adapter%20Schematic.pdf)]
 
 ### Other Reference
-* FFT on FPGA - G. W. Slade, “The Fast Fourier Transform in Hardware: A Tutorial Based on an FPGA Implementation,” MIT 6.111 Course Handout, Mar. 21, 2013. [Online]. Available: [https://web.mit.edu/6.111/www/f2017/handouts/FFTtutorial121102.pdf](https://web.mit.edu/6.111/www/f2017/handouts/FFTtutorial121102.pdf).
+* G. W. Slade, “The Fast Fourier Transform in Hardware: A Tutorial Based on an FPGA Implementation,” MIT 6.111 Course Handout, Mar. 21, 2013. [Online]. Available: [https://web.mit.edu/6.111/www/f2017/handouts/FFTtutorial121102.pdf](https://web.mit.edu/6.111/www/f2017/handouts/FFTtutorial121102.pdf).
 
 ## Bill of Materials
 
