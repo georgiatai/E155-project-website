@@ -1,5 +1,91 @@
+
 ---
-title: "About"
+title: "About the Team"
+format: 
+  html:
+    toc: false
+fontawesome: true
 ---
 
-About this site
+:::: {.team-container}
+
+::: {.team-member}
+## Julia Gong
+
+![](images/headshot.jpg){.profile-img}
+
+::: {.social-links}
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/julia-gong-b8222830a) | 
+[{{< fa brands github >}} GitHub](https://github.com/juliacygong) | 
+[{{< fa globe >}} Website](https://juliacygong.github.io/E155/)
+:::
+
+Julia Gong is a junior engineering major at Harvey Mudd College. She is interested in digital design and the integration of hardware systems. Outside of engineering, she enjoys creative, hands-on work, including pottery, bead embroidery, painting, and knitting. 
+:::
+
+::: {.team-member}
+## Georgia Tai
+
+![](images/partner-headshot.jpg){.profile-img}
+
+::: {.social-links}
+[{{< fa brands linkedin >}} LinkedIn](https://linkedin.com/in/partner) | 
+[{{< fa brands github >}} GitHub](https://github.com/partner) | 
+[{{< fa globe >}} Website](https://partner-website.com)
+:::
+
+[Partner bio goes here. Replace this text with their background, interests, and what they bring to the project. You can follow a similar structure to Julia's bio above.]
+:::
+
+::::
+
+<!-- CSS Styling -->
+```{=html}
+<style>
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.team-member {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #2563eb;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.team-member h2 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+</style>
+
+

@@ -1,6 +1,7 @@
 ---
 title: "Documentation"
 ---
+All the code for this project can be found in the following [Github Repository.](https://github.com/georgiatai/E155-final-project)
 
 ## Block Diagram
 The block diagram of the FPGA design is shown below:
